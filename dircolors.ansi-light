@@ -92,6 +92,8 @@ TERM screen-bce
 TERM screen-w
 TERM screen.linux
 TERM screen.xterm-new
+TERM st
+TERM st-256color
 TERM vt100
 TERM xterm
 TERM xterm-new
@@ -216,10 +218,16 @@ EXEC 01;31  # Unix
 .htm 32
 .html 32
 .shtml 32
+.erb 32
+.haml 32
 .xml 32
 .rdf 32
 .css 32
+.sass 32
+.scss 32
+.less 32
 .js 32
+.coffee 32
 .man 32
 .0 32
 .1 32
